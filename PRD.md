@@ -240,8 +240,10 @@ Dates, cost and team composition require discovery and are intentionally not est
 
 ## 13. Meeting agenda and required decisions
 
+**Confirmed context:** Michael Otieno, KV's CEO, will attend this meeting. The agenda should use his presence to confirm sponsorship and commercial authority, then establish the operational owners required for delivery.
+
 1. Confirm the primary business outcome: more qualified agency leads, valuation instructions, or both.
-2. Identify executive sponsor, operational product owner, content approver and valuation/compliance sign-off owner.
+2. Confirm whether the CEO will sponsor Phase 0; identify the operational product owner, content approver and valuation/compliance sign-off owner.
 3. Review current inventory system/export, media ownership, listing statuses and update process.
 4. Walk through lead routing, WhatsApp use, response capacity and current reporting.
 5. Validate priority audiences, geographic/service focus and any confidentiality/location rules.
