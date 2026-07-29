@@ -19,3 +19,6 @@ CLAUDE.local.md
 .vscode/
 *.log
 
+# Alternate research artifacts retained locally, not canonical project files
+KenyaValuers_PRD_v2.md
+KenyaValuers_PRD_v2.md.pdf
