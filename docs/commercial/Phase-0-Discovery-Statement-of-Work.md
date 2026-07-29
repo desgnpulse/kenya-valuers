@@ -120,7 +120,7 @@ Phase 0 is complete when KV has received and reviewed all deliverables, and the 
 
 | Item | To be agreed |
 | --- | --- |
-| Fixed discovery fee or time-and-materials cap | [FILL] |
+| Fixed Phase-0 discovery fee | KES 450,000, exclusive of applicable taxes. This covers only the defined Phase-0 scope; material changes require written approval. |
 | Payment schedule and invoice entity | [FILL] |
 | Start date and workshop schedule | [FILL] |
 | Client participants and decision turnaround | [FILL] |
