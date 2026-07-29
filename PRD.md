@@ -19,13 +19,14 @@ This is a proposal for discovery and Phase 1. No project, data migration, integr
 ### Market evidence
 
 - Kenya's economy grew 4.6% in 2025 and construction grew 6.8%, following a contraction in 2024. [KNBS Economic Survey 2026](https://www.knbs.or.ke/reports/2026-economic-survey/)
+- Mobile broadband accounted for 84.4% of Kenya's internet connections in the Communications Authority's Q3 FY2025/26 update. That supports a mobile-first product requirement, without claiming that every prospect uses a smartphone. [Communications Authority of Kenya](https://www.ca.go.ke/increased-adoption-smartphones-and-expansion-mobile-network-infrastructure-drive-surge-kenya)
 - Property discovery expectations include maps, saved searches, favourites, good galleries and alerts, as demonstrated by Property24 Kenya's current consumer product. [Property24 Kenya](https://apps.apple.com/ke/app/property24-kenya/id1017755002)
-- Kenya now has a national Residential Property Price Index constructed from listings and real-estate surveys, while HassConsult continues to operate an established quarterly index. [KNBS RPPI](https://www.knbs.or.ke/reports/kenya-residential-property-price-index-april-2026/), [HassConsult](https://www.hassconsult.com/)
+- Kenya now has a national Residential Property Price Index constructed from listings and real-estate surveys, while HassConsult and BuyRentKenya publish property-index products. A future KV insight product must therefore compete on source quality, methodology and professional governance, not a claim of exclusivity. [KNBS RPPI](https://www.knbs.or.ke/reports/kenya-residential-property-price-index-april-2026/), [HassConsult](https://www.hassconsult.com/), [BuyRentKenya Price Index](https://www.buyrentkenya.com/discover/price-index)
 - KV's public site already communicates a 1978 foundation, Nairobi and Watamu coverage, property services and valuation capability. [Kenya Valuers](https://www.kenyavaluers.com/)
 
 ### Product implication
 
-Digital parity in mobile discovery and rapid enquiry is required. KV's win is not more listings than BuyRentKenya or Property24; it is verified premium inventory paired with an accountable professional-service handoff.
+Digital parity in mobile discovery and rapid enquiry is required. KV's win is not more listings than BuyRentKenya or Property24; it is verified premium inventory paired with an accountable professional-service handoff. The competitive data-product market also makes a careful, evidence-led Phase-0 decision more valuable than an ungoverned rush to publish an index.
 
 ## 3. Product vision and positioning
 

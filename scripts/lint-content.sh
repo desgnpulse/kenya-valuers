@@ -11,7 +11,7 @@ ERRORS=0
 
 # Project-specific exclusions: internal instructions and supplied planning artifacts.
 EXCLUDE_DIRS=(".claude" "scripts")
-EXCLUDE_FILES=("CLAUDE.md" "CLAUDE.local.md" "PRD.md" "KenyaValuers_Web.md")
+EXCLUDE_FILES=("CLAUDE.md" "CLAUDE.local.md" "PRD.md" "KenyaValuers_Web.md" "KenyaValuers_PRD_v2.md")
 
 red() { printf "\033[31m%s\033[0m\n" "$*"; }
 green() { printf "\033[32m%s\033[0m\n" "$*"; }
@@ -47,4 +47,3 @@ flag "Possible API key pattern found" '(sk-ant-|sk-[a-z]+-|AKIA|ghp_|ghs_)[A-Za-
 
 printf "\n"
 if [ "$ERRORS" -eq 0 ]; then green "All checks passed."; else red "$ERRORS check(s) failed."; exit 1; fi
-
