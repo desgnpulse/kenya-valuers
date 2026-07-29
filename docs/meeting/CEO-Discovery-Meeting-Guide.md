@@ -18,6 +18,16 @@ The meeting is successful only if it ends with one of these outcomes and a named
 
 The earlier proposal identified a meaningful digital gap. We have re-tested the opportunity and narrowed it to the highest-value question: how KV can turn its premium-property and professional-services credibility into more qualified, measurable enquiries. We would like to validate the operating reality with you before committing to a platform scope.
 
+## Precise market update to use
+
+There are three distinct property-data positions:
+
+- HassConsult is the long-established private index.
+- BuyRentKenya published its first Property Price Index on 17 July 2025, before the March KV proposal. It is evidence that portal-led data products were already active, not a new event since the earlier work. [BuyRentKenya announcement](https://www.buyrentkenya.com/discover/buyrentkenya-unveils-property-price-index-report)
+- KNBS published the first official Residential Property Price Index in April 2026, between the March draft and this meeting. It establishes a new institutional reference point for the category. [KNBS RPPI, April 2026](https://www.knbs.or.ke/reports/kenya-residential-property-price-index-april-2026/)
+
+**Suggested wording:** “Since our March review, Kenya has gained an official residential price index. That does not mean KV should rush to publish another number. It means any future KV insight product must be based on a clear methodology, professionally governed data and a role that complements the public benchmark.”
+
 ## 45-minute agenda
 
 | Time | Topic | Decision or evidence sought |
@@ -59,6 +69,7 @@ The earlier proposal identified a meaningful digital gap. We have re-tested the 
 
 - Phase 1 is a mobile-first, premium-property and professional-services platform. It is not an open marketplace.
 - A web form can request a professional valuation. It cannot generate, imply or certify a formal valuation.
+- The new KNBS RPPI is a reason to validate a future KV data-product methodology, not a reason to promise an index in the initial build.
 - A public price index, automated value estimate, native app, mortgage marketplace and third-party listings need separate evidence and approval gates.
 - A rebuild should not begin until inventory quality, lead workflow, owners, privacy requirements and migration constraints are known.
 

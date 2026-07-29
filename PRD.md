@@ -24,9 +24,15 @@ This is a proposal for discovery and Phase 1. No project, data migration, integr
 - Kenya now has a national Residential Property Price Index constructed from listings and real-estate surveys, while HassConsult and BuyRentKenya publish property-index products. A future KV insight product must therefore compete on source quality, methodology and professional governance, not a claim of exclusivity. [KNBS RPPI](https://www.knbs.or.ke/reports/kenya-residential-property-price-index-april-2026/), [HassConsult](https://www.hassconsult.com/), [BuyRentKenya Price Index](https://www.buyrentkenya.com/discover/price-index)
 - KV's public site already communicates a 1978 foundation, Nairobi and Watamu coverage, property services and valuation capability. [Kenya Valuers](https://www.kenyavaluers.com/)
 
+### Market-intelligence timeline
+
+- HassConsult is the established private benchmark. It has published the Hass Property Index quarterly for more than a decade. [HassConsult](https://www.hassconsult.com/hassindex)
+- BuyRentKenya's inaugural Property Price Index was published on 17 July 2025, before the March 2026 KV proposal. It was a missed competitive fact in the original pitch, not a later market event. [BuyRentKenya inaugural index announcement](https://www.buyrentkenya.com/discover/buyrentkenya-unveils-property-price-index-report)
+- KNBS published the first release of its official RPPI in April 2026, between the March draft and this meeting. The release covers historical data from 2022 Q1 to 2025 Q4 and gives the category a new institutional reference point. [KNBS RPPI, April 2026](https://www.knbs.or.ke/reports/kenya-residential-property-price-index-april-2026/)
+
 ### Product implication
 
-Digital parity in mobile discovery and rapid enquiry is required. KV's win is not more listings than BuyRentKenya or Property24; it is verified premium inventory paired with an accountable professional-service handoff. The competitive data-product market also makes a careful, evidence-led Phase-0 decision more valuable than an ungoverned rush to publish an index.
+Digital parity in mobile discovery and rapid enquiry is required. KV's win is not more listings than BuyRentKenya or Property24; it is verified premium inventory paired with an accountable professional-service handoff. The April debut of the official KNBS RPPI is the material market change since the March draft. It raises the standard for any KV intelligence product, making a careful, evidence-led Phase-0 decision more valuable than an ungoverned rush to publish an index.
 
 ## 3. Product vision and positioning
 
