@@ -199,7 +199,13 @@ Phase 1 should extend the Corviat shared platform rather than begin with a separ
 
 KV still needs a deliberately thin real-estate layer: listing, media and property-reference records; a lead/request model that does not force a formal valuation or customer account; public discovery and SEO pages; and KV-specific assignment, status and reporting views. Corviat's current certification application model is not reused as the lead model, and the existing Follow-Up intake is a Supabase-backed prototype rather than a production shared module. Discovery must validate this reuse boundary against KV's inventory source and lead operations before a fixed scope is proposed.
 
-- Public web frontend optimised for search, performance and content publishing.
+**Domain confirmed (first CEO call):** kenyavaluers.com does not change. The platform must be reachable at KV's existing domain, not a corviat.com subdomain. This makes custom-domain routing to the shared Corviat platform confirmed scope, not an option to defer:
+
+- Cloudflare (already in front of corviat.com) needs a Custom Hostnames/SaaS configuration to terminate TLS for kenyavaluers.com and forward it to Corviat's origin with the original Host header intact.
+- Corviat's tenant resolution currently matches subdomains against a fixed set of Corviat-owned domains (`packages/core/src/tenant/index.ts`); it has no lookup for a third-party domain. A `custom_domains` table (hostname → tenantId) and a resolver change are new work, not reuse.
+- **Media/asset storage is also confirmed new scope, not a Corviat capability.** No storage, upload, or CDN module exists anywhere in `packages/core` or the shared DB schema today. Listing photos, floor plans and brochures need this built from scratch alongside the listing/lead layer.
+
+- Public web frontend optimised for search, performance and content publishing, served at kenyavaluers.com via custom-domain routing into the shared Corviat platform.
 - Corviat tenancy, staff authentication, audit, notification and workflow capabilities used behind the KV-specific listing and lead modules.
 - Structured content/listing store with API boundaries; no dependence on hard-coded listing pages.
 - Separate admin/operations interface and public presentation layer.
