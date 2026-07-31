@@ -1,8 +1,8 @@
 # Kenya Valuers Digital Platform — Product Requirements Document
 
-**Version:** 2.0 (meeting draft)  
+**Version:** 2.1 (post-signature client PRD)
 **Date:** 28 July 2026  
-**Status:** Proposed — not approved for build  
+**Status:** Working product direction. Issue to KV only after a Phase-0 discovery engagement is signed; not approved for build.
 **Client:** Kenya Valuers & Estate Agents (KV)  
 **Prepared by:** DesgnPulse
 
@@ -193,9 +193,14 @@ Deliverables:
 - Listing status rules: draft, pending review, published, withdrawn/let/sold/archived. Expired/withdrawn listings cannot appear in search.
 - Daily backup target and recovery objective to be agreed after chosen hosting/data architecture.
 
-## 9. Architecture principles (not a final stack decision)
+## 9. Architecture principles and reuse decision
+
+Phase 1 should extend the Corviat shared platform rather than begin with a separate greenfield operating foundation. A pre-meeting technical review confirmed that Corviat already provides tenant isolation, staff authentication and role foundations, audit logging, notification dispatch, configurable workflows and SLA monitoring. These are directly applicable to a routed property or professional-service request.
+
+KV still needs a deliberately thin real-estate layer: listing, media and property-reference records; a lead/request model that does not force a formal valuation or customer account; public discovery and SEO pages; and KV-specific assignment, status and reporting views. Corviat's current certification application model is not reused as the lead model, and the existing Follow-Up intake is a Supabase-backed prototype rather than a production shared module. Discovery must validate this reuse boundary against KV's inventory source and lead operations before a fixed scope is proposed.
 
 - Public web frontend optimised for search, performance and content publishing.
+- Corviat tenancy, staff authentication, audit, notification and workflow capabilities used behind the KV-specific listing and lead modules.
 - Structured content/listing store with API boundaries; no dependence on hard-coded listing pages.
 - Separate admin/operations interface and public presentation layer.
 - Vendor-neutral integration adapters for CRM, email and messaging so that KV can change tools without rebuilding core data.
@@ -226,12 +231,13 @@ Migration sequence:
 | Stage | Indicative duration | Exit evidence |
 | --- | --- | --- |
 | Discovery | 3–5 weeks | Signed scope, prototype, data/SEO audit, architecture decision, estimate |
-| Design & foundations | 3–4 weeks | Approved design system, CMS/admin model, test plan, staging setup |
-| Build and migration rehearsal | 8–12 weeks | Feature acceptance, accessibility/performance checks, migration report |
-| Launch readiness | 2–3 weeks | Client UAT sign-off, training, redirect/rollback checklist, support plan |
+| Shared-foundation compatibility spike | Up to 1 week | Reuse boundary, KV domain-model decision and delivery estimate confirmed |
+| KV layer design & foundations | 1–2 weeks | Approved design system, listing/lead model, test plan, staging setup |
+| KV layer build and migration rehearsal | 5–8 weeks | Feature acceptance, accessibility/performance checks, migration report |
+| Launch readiness | 1–2 weeks | Client UAT sign-off, training, redirect/rollback checklist, support plan |
 | Measurement | First 60–90 days | Baseline-versus-outcome report and prioritised Phase-2 decision |
 
-Dates, cost and team composition require discovery and are intentionally not estimated here.
+These are planning bands, not a commitment. Dates, cost and team composition require discovery and are intentionally not estimated here; the earlier broad greenfield scenario must not be used as a commercial anchor.
 
 ## 12. Risks and decisions needed
 
